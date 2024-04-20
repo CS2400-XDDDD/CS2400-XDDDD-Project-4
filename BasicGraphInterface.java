@@ -8,7 +8,7 @@ package GraphPackage;
    @version 5.0
 */
 public interface BasicGraphInterface<T>
-{
+{     
    /** Adds a given vertex to this graph.
        @param vertexLabel  An object that labels the new vertex and is
                            distinct from the labels of current vertices.

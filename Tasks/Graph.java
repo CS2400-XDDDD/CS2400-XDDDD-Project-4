@@ -4,8 +4,20 @@ public class Graph<E>
 { 
     private boolean[][] edges; // edges[i][j] is true if there is a vertex from i to j
     private E[] labels; // labels[i] contains the label for vertex i
+    private int V; // Number vertices
+    private LinkedList<Integer>[] adjList;  // For adjacency list
+    private int[][] adjMatrix; // For adjacency matrix
+
 
     public Graph(int n) {
+        V = n;
+        adjMatrix = new int[V][V];
+        adjList = new LinkedList[V];
+
+        for (int i = 0; i < V; ++i) {
+            adjList[i] = new LinkedList();
+        }
+
         edges = new boolean[n][n]; // All values initially false
         labels = (E[]) new Object[n]; // All values initially null
     }
@@ -23,6 +35,9 @@ public class Graph<E>
     // Add an edge
     public void addEdge(int source, int target) {
         edges[source][target] = true;
+
+        adjMatrix[source][target] = 1;
+        adjList[source].add(target);
     }
     
     // Obtain a list of neighbors of a specified vertex of this Graph
@@ -57,4 +72,6 @@ public class Graph<E>
     public int size() {
         return labels.length;
     }
+
+    
 }

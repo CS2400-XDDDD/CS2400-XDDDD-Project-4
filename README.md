@@ -13,4 +13,4 @@ Garret Masuda - Task 1
 
 Mason Orton - Task 2 and 3
 
-Bijou Raj - 
+Bijou Raj - Read ME and testing

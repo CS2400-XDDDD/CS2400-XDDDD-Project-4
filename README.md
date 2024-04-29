@@ -10,4 +10,7 @@ Bijou Raj - bbraj@cpp.edu - BijouRaj
 
 Contributions:
 Garret Masuda - Task 1
+
 Mason Orton - Task 2 and 3
+
+Bijou Raj - 

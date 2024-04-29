@@ -9,7 +9,7 @@ Mason Orton - maorton@cpp.edu - MasonAsemi
 Bijou Raj - bbraj@cpp.edu - BijouRaj
 
 Contributions:
-Garret Masuda - Task 1
+Garret Masuda - Task 0 and 1
 
 Mason Orton - Task 2 and 3
 
